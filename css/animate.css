@@ -1,0 +1,31 @@
+/* transitions for home */
+
+.home {
+  transition: background-image 0.75s ease-in;
+}
+
+.home_content h2 {
+  transition: opacity 0.75s ease-out;
+}
+
+.ones,
+.twos {
+  transition: background-color 0.75s ease-in;
+}
+
+
+/* animation tries */
+
+.animate{
+  transition: all .5s ease;
+}
+
+
+
+.animate{
+  transform: translateY(50%);
+}
+
+.show-animate.animate{
+  transform: translateY(0);
+}
